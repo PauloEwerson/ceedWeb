@@ -1,0 +1,20 @@
+//
+// general.scss
+//
+
+body {
+    font-family: $font-family-base;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none;
+}
+
+p {
+    line-height: 2;
+}
+
+.font-primary {
+    font-family: $font-family-base;
+}

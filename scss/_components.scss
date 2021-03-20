@@ -1,0 +1,104 @@
+.text-custom {
+    color: $custom !important;
+}
+.text-primary {
+    color: #005bea !important;
+}
+
+.text-gradient {
+    background: $custom;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-custom{
+    background-color: $custom;
+}
+
+.btn {
+    padding: 14px 36px;
+    border: 1px solid;
+    font-size: 13px;
+    transition: all 0.5s;
+    border-radius: 4px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn-w {
+    padding: 14px 20px;
+}
+
+.btn-sm {
+    padding: 10px 30px;
+    font-size: 12px;
+}
+
+.btn-custom {
+    background: $custom;
+    color: $white;
+    border-color: transparent;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom {
+    outline: none;
+    text-decoration: none;
+    color: $white;
+    transform: translateY(-3px);
+    text-decoration: none;
+    box-shadow: 0 3px 20px -8px #000;
+}
+
+.btn-outline {
+    color: $primary;
+    border-color: $primary;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active,
+.btn-outline.focus,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline:hover,
+.open > .dropdown-toggle.btn-outline {
+    outline: none;
+    text-decoration: none;
+    color: $white;
+    background: $primary;
+    transform: translateY(-3px);
+    box-shadow: 0 3px 20px -8px #000;
+}
+
+
+.btn-custom-primary {
+    background: $primary;
+    color: $white;
+    border-color: transparent;
+}
+
+.btn-custom-primary:hover,
+.btn-custom-primary:focus,
+.btn-custom-primary:active,
+.btn-custom-primary.active,
+.btn-custom-primary.focus,
+.btn-custom-primary:active,
+.btn-custom-primary:focus,
+.btn-custom-primary:hover,
+.open > .dropdown-toggle.btn-custom-primary {
+    outline: none;
+    text-decoration: none;
+    color: $white;
+    transform: translateY(-3px);
+    text-decoration: none;
+    box-shadow: 0 3px 20px -8px #000;
+}

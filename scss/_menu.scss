@@ -1,0 +1,278 @@
+
+
+
+.nav-icon {
+    li {
+        a {
+            margin: 0 12px !important;
+        }
+    }
+}
+
+.nav-item {
+    .nav-link {
+        display: inline-block;
+        color: $body-color;
+        text-decoration: none;
+        &:after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #ff8700;
+            transition: width .3s;
+        }
+    }
+}
+
+.navbar-custom {
+    padding: 18px 0;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+    margin-bottom: 0px;
+    transition: all 0.5s ease-in-out;
+    background-color: #000;;
+    .navbar-nav {
+        li {
+            a {
+                line-height: 26px;
+                color: rgba(255, 255, 255, 0.7);
+                font-size: 12px;
+                text-transform: capitalize;
+                transition: all 0.5s;
+                background-color: transparent !important;
+                padding: 6px 0;
+                margin: 0 16px;
+                font-weight: 400;
+            }
+            .nav-link {
+                padding-right: 0px;
+                padding-left: 0px;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .navbar-toggles {
+        padding: .25rem .75rem;
+        font-size: 18px;
+        background: 0 0;
+        border: 1px solid transparent;
+        color: $white;
+        outline: 0;
+    }
+}
+
+.navbar-toggler {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: $white;
+}
+
+.navbar-custom .navbar-nav li.active a,
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:active {
+    color: $white !important;
+    &:after {
+        width: 100%;
+        transition: width .3s;
+    }
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    background-color: transparent;
+    border-color: $primary;
+}
+
+.menu-toggle {
+    padding: 4.5px 10px !important;
+    span {
+        line-height: 27px;
+    }
+}
+
+
+/*---NAVBAR STICKY--*/
+
+.nav-sticky {
+    &.navbar-custom {
+        margin-top: 0px;
+        background-color: $black;
+        box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.1);
+        color: $black !important;
+        .navbar-toggles {
+            padding: .25rem .75rem;
+            border: 1px solid transparent;
+            outline: 0;
+        }
+    }
+    .navbar-nav {
+        margin-top: 0px;
+        li {
+            a {
+                color: rgba(255, 255, 255, 0.7) !important;
+            }
+        }
+    }
+}
+
+.nav-sticky.navbar-custom .navbar-nav li.active a,
+.nav-sticky.navbar-custom .navbar-nav li a:hover,
+.nav-sticky.navbar-custom .navbar-nav li a:active {
+    color: $white !important;
+    &:after {
+        width: 100%;
+        transition: width .3s;
+    }
+}
+
+.navbar-collapse {
+    .navbar-nav {
+        .nav-item {
+            margin-top: 6px;
+        }
+    }
+}
+
+.navbar-toggler {
+    &:focus {
+        outline: none;
+    }
+}
+
+
+// NAVBAR LIGHT
+
+.navbar-custom.navbar-light .navbar-nav li.active a, 
+.navbar-custom.navbar-light .navbar-nav li a:hover, 
+.navbar-custom.navbar-light .navbar-nav li a:active {
+    color: $white !important;
+}
+
+.navbar-light {
+    background-color: transparent;
+    .nav-item {
+        .nav-link {
+            &:after {
+                background: $white;
+            }
+        }
+    }
+}
+
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: rgba(255, 255, 255, 0.6);
+        }
+    }
+}
+
+/*---NAVBAR STICKY--*/
+
+.navbar-light {
+    .nav-sticky {
+        &.navbar-custom {
+            margin-top: 0px;
+            background-color: $white;
+            box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.1);
+            color: $body-color !important;
+            .navbar-toggles {
+                padding: .25rem .75rem;
+                border: 1px solid transparent;
+                outline: 0;
+            }
+        }
+    }
+}
+
+.navbar-light {
+    &.nav-sticky {
+        .nav-item {
+            .nav-link {
+                &:after {
+                    background: $white !important;
+                }
+            }
+        }
+    }
+}
+
+.navbar-light.nav-sticky.navbar-custom .navbar-nav li.active a,
+.navbar-light.nav-sticky.navbar-custom .navbar-nav li a:hover,
+.navbar-light.nav-sticky.navbar-custom .navbar-nav li a:active {
+    color: $white !important;
+    &:after {
+        width: 100%;
+        transition: width .3s;
+    }
+}
+
+.navbar-light {
+    .navbar-toggler {
+        color: $body-color;
+        border-color: transparent;
+    }
+}
+
+
+
+
+@media (min-width: 200px) and (max-width: 768px) {
+    .navbar-custom {
+        margin-top: 0px;
+        background-color: $black !important;
+        box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
+        color: $white !important;
+        .navbar-nav {
+            margin-top: 0px;
+            li {
+                a {
+                    transition: all 0.4s;
+                    color: rgba(255, 255, 255, 0.6) !important;
+                    margin: 0px;
+                }
+                &.active {
+                    a {
+                        border-color: transparent;
+                    }
+                }
+            }
+        }
+        &>.container {
+            width: 90%;
+        }
+    }
+    .navbar-toggler {
+        font-size: 24px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: $white !important;
+    }
+
+    .nav-icon {
+        display: block;
+        li {
+            a {
+                margin: 0 10px !important;
+            }
+        }
+    }
+
+    .navbar-light {
+        .nav-item {
+            .nav-link:after {
+                background: $white;
+            }
+        }
+    }
+    .navbar-custom.navbar-light .navbar-nav li.active a, 
+    .navbar-custom.navbar-light .navbar-nav li a:hover, 
+    .navbar-custom.navbar-light .navbar-nav li a:active {
+        color: $white !important;
+    }
+}

@@ -1,0 +1,36 @@
+/* Template Name: Zooki - Landing Page Template 
+   Author: Themesbrand
+   Version: 1.0.0
+   Created: April 2019
+   File Description: Main Css file of the template
+*/
+
+/* ============ 
+   Table of css
+   ===========
+1. General
+2. Navbar
+3. Helper
+4. Home
+5. About
+6. Services
+7. Features
+8. Pricing
+9. Testimonials
+10. Blog
+11. Contact Us
+12. Footer
+13. Preloader
+*/
+
+/* ==========
+	1. General
+   ========== */
+
+@import "variables";
+@import "general";
+@import "menu";
+@import "components";
+@import "helper";
+@import "home";
+@import "loader";
