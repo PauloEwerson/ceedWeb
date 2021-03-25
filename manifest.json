@@ -2,7 +2,7 @@
   "theme_color": "#ffc107",
   "background_color": "#ffc107",
   "display": "fullscreen",
-  "scope": "/",
+  "scope": "/index.html",
   "start_url": "/",
   "name": "CEED",
   "short_name": "CEED",
