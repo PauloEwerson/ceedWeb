@@ -1,20 +1,10 @@
 {
-  "name": "CEED Acadêmico",
-  "short_name": "CEED Acadêmico",
-  "lang": "pt-BR",
-  "start_url": "/index.html",
+  "theme_color": "#2a3b66",
+  "background_color": "#2a3b66",
   "display": "standalone",
-  "theme_color": "#132044",
-  "icons": [
-    {
-      "src": "../images/pwa.png",
-      "sizes": "512",
-      "type": "image/png"
-    }
-  ],
-  "related_applications": [
-    {
-      "url": "https://ceed.com.br/"
-    }
-  ]
+  "scope": "/index.html",
+  "start_url": "/",
+  "name": "CEED Academico",
+  "short_name": "ceed academico",
+  "icons": []
 }
