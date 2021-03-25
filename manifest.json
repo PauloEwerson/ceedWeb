@@ -1,21 +1,11 @@
 {
-  "lang": "pt",
-  "dir": "ltr",
-  "name": "CEED Acadêmico",
-  "short_name": "CEED-Acadêmico",
-  "icons": [
-    {
-      "src": "https://ceed.com.br/images/pwa.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ],
-  "theme_color": "#2a3b66",
-  "background_color": "#2a3b66",
+  "theme_color": "#ffc107",
+  "background_color": "#ffc107",
+  "display": "fullscreen",
+  "scope": "/",
   "start_url": "/",
-  "display": "standalone",
-  "orientation": "natural",
-  "url": "https://ceed.com.br",
-  "manifestUrl": "https://ceed.com.br/public/manifest.json",
-  "screenshots": []
+  "name": "CEED",
+  "short_name": "CEED",
+  "description": "Aplicativo Acad\u00eamico do Centro Educacional Estrela Dalva",
+  "icons": []
 }

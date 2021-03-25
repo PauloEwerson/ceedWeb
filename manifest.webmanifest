@@ -1,0 +1,11 @@
+{
+    "theme_color": "#ffc107",
+    "background_color": "#ffc107",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/",
+    "name": "CEED",
+    "short_name": "CEED",
+    "description": "Aplicativo Acad\u00eamico do Centro Educacional Estrela Dalva",
+    "icons": []
+}
