@@ -34,7 +34,17 @@
 </head>
 
 <body>
-
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('pwabuilder-sw.js')
+                .then(function () {
+                    console.log('service worker registered');;
+                })
+                .catch(function () {
+                    console.warn('service worker failed');
+                });
+        }
+    </script>
     <!-- Loader -->
     <div id="preloader">
         <div id="status">
@@ -919,6 +929,10 @@
             });
         });
     </script>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate"></script>
+
+    <pwa-update></pwa-update>
 
 </body>
 

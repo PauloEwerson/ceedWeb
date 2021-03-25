@@ -1,8 +1,8 @@
 {
   "lang": "pt",
   "dir": "ltr",
-  "name": "CEED Acadêmico",
-  "short_name": "CEED-Acadêmico",
+  "name": "CEED",
+  "short_name": "CEED",
   "icons": [
     {
       "src": "https://ceed.com.br/images/pwa.png",
