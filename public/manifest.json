@@ -5,9 +5,9 @@
   "short_name": "CEED-Acadêmico",
   "icons": [
     {
-      "src": "\/images\/pwa.png",
+      "src": "../images/pwa.png",
       "sizes": "512x512",
-      "type": "image\/png"
+      "type": "image/png"
     }
   ],
   "theme_color": "#2a3b66",
