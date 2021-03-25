@@ -28,25 +28,23 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 
     <!-- Custom PWA -->
-    <meta name="theme-color" content="#132044">
-    <link rel="apple-touch-icon" href="./images/pwa.png">
     <link rel="manifest" href="./public/manifest.json">
-    <link rel="canonical" href="https://ceed.com.br/">
 
 </head>
 
 <body>
-
-    <!-- Custom PWA -->
     <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('sw.js')
-                .then(function () {
-                    console.log('service worker registered');
-                })
-                .catch(function () {
-                    console.log('service worker failed');
+        function registerServiceWorker() {
+            // registrando o service worker para navegadores com suporte
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('sw.js', {
+                    scope: '/'
+                }).then(() => {
+                    console.log('Service Worker registrado com sucesso.');
+                }).catch(error => {
+                    console.log('Service Worker falhou:', error);
                 });
+            }
         }
     </script>
 

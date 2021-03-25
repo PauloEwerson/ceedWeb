@@ -1,10 +1,18 @@
 {
+  "lang": "pt",
+  "dir": "ltr",
+  "name": "CEED Acadêmico",
+  "short_name": "CEED-Acadêmico",
+  "icons": [
+    {
+      "src": "\/images\/pwa.png",
+      "sizes": "512x512",
+      "type": "image\/png"
+    }
+  ],
   "theme_color": "#2a3b66",
   "background_color": "#2a3b66",
-  "display": "standalone",
-  "scope": "/index.html",
   "start_url": "/",
-  "name": "CEED Academico",
-  "short_name": "ceed academico",
-  "icons": []
+  "display": "standalone",
+  "orientation": "natural"
 }
