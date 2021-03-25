@@ -28,25 +28,11 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 
     <!-- Custom PWA -->
-    <link rel="manifest" href="./public/manifest.json">
+    <link rel='manifest' href='/manifest.json'>
 
 </head>
 
 <body>
-    <script>
-        function registerServiceWorker() {
-            // registrando o service worker para navegadores com suporte
-            if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('sw.js', {
-                    scope: '/'
-                }).then(() => {
-                    console.log('Service Worker registrado com sucesso.');
-                }).catch(error => {
-                    console.log('Service Worker falhou:', error);
-                });
-            }
-        }
-    </script>
 
     <!-- Loader -->
     <div id="preloader">
